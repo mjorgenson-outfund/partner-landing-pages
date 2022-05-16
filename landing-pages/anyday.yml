@@ -1,0 +1,97 @@
+# Slug value will be used for URL, eg: www.revenue.finance/template
+# As a convention, name the file the same as the slug, eg: template.yml
+slug: template
+
+# Set this to true when you want to publish the page
+published: false
+
+# Partner logo in SVG format, please just add the naem not the ".svg" file extension
+# Add the logo to the "companyLogos" folder
+partnerLogo: "templateLogo"
+partnerLogoCard: ""
+
+colors: {
+    theme: "#faf",
+    page: "#fff",
+
+    navbarBg: "", # If nothing present, page color will be used
+
+    # Card colors
+    card: { bg: "#000", font: "#fff", elements: "#faf" },
+    font:
+      {
+        heading: "#000",
+        inverseHeading: "#fff",
+        body: "#222",
+        inverseBody: "#ccc",
+      },
+    button: { bg: "#faf", text: "#fff" },
+    iconSection: { icon: "#faf", bg: "#fafafa" },
+    darkSection: { bg: "#000", button: { bg: "#faf", text: "#fff" } },
+  }
+
+# Content
+first:
+  {
+    title: { firstLine: "First line", secondLine: "Second line" },
+
+    description: "As funding experts, we know that having the capital to pay for inventory and marketing is a huge barrier to growth for any brand. Grantify Capital (powered by Outfund) offers a new way to help you fund your online business with funding from £10K to £2M.",
+
+    button: "Get funded",
+  }
+second:
+  [
+    {
+      title: "No Equity Dilution <br/> Or Person Guarantee",
+      icon: "group_off",
+    },
+    { title: "One Flat <br/> Transparent Fee", icon: "task_alt" },
+    { title: "Get Funded <br/> In 48 Hours", icon: "rocket_launch" },
+  ]
+
+third:
+  {
+    title: "How It Works",
+    description: "We build you a unique deal based on your track record and success.",
+    steps:
+      [
+        {
+          title: "Apply for funding",
+          description: "We analyse your data to make you a tailored offer within 48 hours.",
+        },
+        {
+          title: "Select an offer",
+          description: "100% of your funds are available to use after selecting an offer.",
+        },
+        {
+          title: "Repay on your terms",
+          description: "Repay your balance with a small share of your new sales.",
+        },
+      ],
+  }
+
+fourth:
+  {
+    title: "Repay On Your Terms",
+    description: "Repayments are automatically made from a pre-agreed percentage of your revenue, so you can focus 100% on your business.",
+    button: "Get funded",
+  }
+
+fifth:
+  {
+    title: "What We Do",
+    description: "Powered by Outfund, Sitruna Finance can help your business to achieve its growth potential. Don’t be held back by limited inventory, or a small marketing budget. Revenue based financing is a fast, flexible and fair way to supercharge your growth, without giving up equity and with no personal guarantee.",
+    statement: "Sitruna Finance offers a new way to help you fund your Amazon brand.",
+  }
+
+sixth:
+  {
+    title: "We fund online businesses who",
+    list:
+      [
+        "Sell products on Amazon",
+        "Have been trading for 6 months +",
+        "Earn £10K+ monthly revenue",
+      ],
+    button: "Get funded",
+  }
